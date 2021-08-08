@@ -1,0 +1,15 @@
+body{
+    overflow: hidden;
+}
+
+body > .page{
+    display: flex;
+    flex-wrap: wrap;
+    //  滚动条占了17px
+}
+
+body > .page > section{
+    border: 1px solid grey;
+    width: 50vw;
+    height: 50vh;
+}
